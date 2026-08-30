@@ -6,11 +6,12 @@ Python projects created in my spare time to build a reusable syntax reference an
 
 ### Data Engineering
 
-* Apache Airflow
-* Apache Beam
-* Apache Spark
-* DuckDB
-* Polars
+* Apache Airflow: https://airflow.apache.org/
+* Apache Beam: https://beam.apache.org/
+* Apache Spark: https://spark.apache.org/
+* DBT: https://www.getdbt.com/
+* DuckDB: https://duckdb.org/
+* Polars: https://pola.rs/
 
 ### Machine Learning & Statistical Modeling
 
