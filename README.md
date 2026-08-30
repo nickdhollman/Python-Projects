@@ -9,7 +9,7 @@ Python projects created in my spare time to build a reusable syntax reference an
 * [Apache Airflow](https://airflow.apache.org/docs/)
 * [Apache Beam](https://beam.apache.org/documentation/programming-guide/)
 * [Apache Spark / PySpark](https://spark.apache.org/docs/latest/api/python/)
-* [dbt Core](https://docs.getdbt.com/docs/core)
+* [dbt Core]((https://github.com/dbt-labs/dbt-core/tree/1.latest))
 * [DuckDB](https://duckdb.org/docs/stable/)
 * [Polars](https://docs.pola.rs/user-guide/)
 
