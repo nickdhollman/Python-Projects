@@ -42,10 +42,3 @@ Areas of interest include:
 * [Matplotlib](https://matplotlib.org/stable/users/index.html)
 * [Seaborn](https://seaborn.pydata.org/tutorial.html)
 
-### Python Data Stack
-
-* pandas
-* NumPy
-* Matplotlib
-* Seaborn
-
