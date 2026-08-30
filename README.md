@@ -1,6 +1,6 @@
 # Python Projects
 
-Python projects created in my spare time to build a reusable syntax reference, practice version control, and gain hands-on experience with Python libraries and tools across data engineering, machine learning, and generative AI.
+Python projects created in my spare time to build a reusable syntax reference and gain hands-on experience with Python libraries and tools across data engineering, machine learning, and generative AI.
 
 ## Areas of Interest
 
