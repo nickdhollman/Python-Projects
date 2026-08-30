@@ -8,8 +8,11 @@ Python projects created in my spare time to build a reusable syntax reference an
 
 * [Apache Airflow](https://airflow.apache.org/docs/)
 * [Apache Beam](https://beam.apache.org/documentation/programming-guide/)
+* [Apache Iceberg](https://iceberg.apache.org/docs/latest/)
+* [Apache Kafka](https://kafka.apache.org/documentation/)
 * [Apache Spark / PySpark](https://spark.apache.org/docs/latest/api/python/)
-* [dbt Core](https://github.com/dbt-labs/dbt-core/tree/1.latest)
+* [dbt Core v1 (Python)](https://github.com/dbt-labs/dbt-core/tree/1.latest)
+* [Docker](https://docs.docker.com/get-started/)
 * [DuckDB](https://duckdb.org/docs/stable/)
 * [Polars](https://docs.pola.rs/user-guide/)
 
