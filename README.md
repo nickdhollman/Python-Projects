@@ -22,6 +22,7 @@ Python projects created in my spare time to build a reusable syntax reference an
 * [statsmodels](https://www.statsmodels.org/stable/user-guide.html)
 * [XGBoost](https://xgboost.readthedocs.io/en/stable/tutorials/)
 * [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
+* [CatBoost](https://catboost.ai/docs/en/concepts/python-quickstart)
 * [TensorFlow](https://www.tensorflow.org/guide)
 * [Keras](https://keras.io/guides/)
 * [PyTorch](https://docs.pytorch.org/tutorials/)
