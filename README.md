@@ -12,6 +12,7 @@ Python projects created in my spare time to build a reusable syntax reference an
 * [Apache Kafka](https://kafka.apache.org/documentation/)
 * [Apache Spark / PySpark](https://spark.apache.org/docs/latest/api/python/)
 * [dbt Core v1 (Python)](https://github.com/dbt-labs/dbt-core/tree/1.latest)
+* [dlt](https://dlthub.com/docs/intro)
 * [Docker](https://docs.docker.com/get-started/)
 * [DuckDB](https://duckdb.org/docs/stable/)
 * [Polars](https://docs.pola.rs/user-guide/)
