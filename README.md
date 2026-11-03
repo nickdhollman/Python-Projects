@@ -1,6 +1,10 @@
-# Python Projects
+# Python Libraries & Technical Exploration
 
-Python projects created in my spare time to build a reusable syntax reference and gain hands-on experience with Python libraries and tools across data engineering, machine learning, statistical modeling, and generative AI.
+This branch contains independent coding exercises and technical experiments focused on exploring Python libraries, frameworks, and related technologies across data engineering, machine learning, statistical modeling, and generative AI.
+
+The primary purpose is to gain hands-on experience with new tools, strengthen programming and analytical skills, and maintain a reusable reference of syntax, examples, and workflows for future projects.
+
+Content ranges from introductory library exercises to more involved technical exploration. The technologies listed below represent areas of current interest and ongoing learning rather than tools necessarily implemented in completed projects.
 
 ## Areas of Interest
 
