@@ -1,0 +1,22 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Project-specific environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local datasets, generated models, results and logs
+**/data/
+**/artifacts/
+*.log
+
+# Local editor and operating system files
+.vscode/*.local.json
+.DS_Store
+Thumbs.db

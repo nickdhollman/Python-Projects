@@ -1,4 +1,16 @@
-# Python Projects
+# Practicing Production ML Projects
+
+This branch documents my practice with organizing and reproducing machine learning projects. I am building habits around isolated Python environments, local configuration, dependency management, reusable training code and Git hygiene.
+
+## Practice projects
+
+| Project | Focus |
+|---|---|
+| [01 Environment Setup and Iris Classification](projects/01_iris_classification/README.md) | Dedicated `.venv`, `.env` configuration, pinned dependencies, a shared training script and notebook, and ignored data and model outputs |
+
+Each project has its own directory and environment. I open the individual project folder in VS Code and select that environment as both the Python interpreter and notebook kernel. The root `.gitignore` excludes local environments, `.env` files, data folders and generated artifacts while allowing `.env.example` files to be shared.
+
+## Repository background
 
 This repository contains academic projects, coding exercises, and independent technical exploration developed throughout my Master of Science in Business Analytics and Data Science (MS BAnDS) program and ongoing professional development.
 
