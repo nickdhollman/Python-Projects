@@ -1,49 +1,50 @@
 # Practicing Production ML Projects
 
-This branch documents my practice with organizing and reproducing machine learning projects. I am building habits around isolated Python environments, local configuration, dependency management, reusable training code and Git hygiene.
+This branch documents practical work on reproducible machine learning projects. The starting workflow uses a dedicated Python environment, local configuration, reviewed dependencies and notebooks that can be run from beginning to end.
+
+## Start here
+
+Read the [project setup guide](projects/README.md) for the folder structure, each file's purpose, Git ignore rules and practices for moving toward production.
+
+Use the [generic environment template](projects/00_Create_Environment_Template.ipynb) to create an environment for a new project. Set the project folder, environment name and installed Python version before running its cells.
 
 ## Practice projects
 
-| Project | Focus |
-|---|---|
-| [01 Environment Setup and Iris Classification](projects/01_iris_classification/README.md) | Dedicated `.venv`, `.env` configuration, pinned dependencies, a shared training script and notebook, and ignored data and model outputs |
+| Project | Focus | Status |
+|---|---|---|
+| [01 Iris classification](projects/01_iris_classification/README.md) | Environment creation, local configuration, a scikit-learn Pipeline and evaluation | Completed locally with Python 3.12.10 |
 
-Each project has its own directory and environment. I open the individual project folder in VS Code and select that environment as both the Python interpreter and notebook kernel. The root `.gitignore` excludes local environments, `.env` files, data folders and generated artifacts while allowing `.env.example` files to be shared.
+The Iris example uses a public dataset bundled with scikit-learn. Its recorded split contains 120 training rows and 30 test rows. The logistic regression pipeline reached 93.33% test accuracy and approximately 0.9333 macro F1.
 
-## Repository background
+## Files shared on this branch
 
-This repository contains academic projects, coding exercises, and independent technical exploration developed throughout my Master of Science in Business Analytics and Data Science (MS BAnDS) program and ongoing professional development.
+~~~text
+.gitignore
+README.md
+projects/
+    README.md
+    00_Create_Environment_Template.ipynb
+    01_iris_classification/
+        README.md
+        .env.example
+        requirements.txt
+        00_Create_Environment.ipynb
+        01_Iris_Project.ipynb
+~~~
 
-Despite the repository name, the content is not limited to Python. It includes work across programming languages, data analytics, cloud technologies, data engineering, machine learning, and related tools.
+The safe configuration example documents the required variable names. Local .env files, Python environments, datasets, generated artifacts and local archives are excluded by .gitignore.
 
-The primary purpose of this repository is to document learning, experiment with technologies, practice technical skills, and maintain useful examples for future reference.
+## Run the Iris example
 
-## Areas of Focus
+1. Open projects/01_iris_classification in VS Code.
+2. Follow its README and run 00_Create_Environment.ipynb to create .venv_iris and install requirements.
+3. Open 01_Iris_Project.ipynb and select .venv_iris as the notebook kernel.
+4. Run the analysis cells in order and review the measured results.
 
-- **Programming & Data Analysis:** Python, SQL, data manipulation, exploratory analysis, and visualization.
-- **Business Intelligence & Analytics:** Data modeling, analytical workflows, reporting, and dashboard development.
-- **Data Engineering & Cloud Technologies:** Data pipelines, ETL/ELT processes, cloud services, and data infrastructure.
-- **Statistics & Machine Learning:** Statistical analysis, predictive modeling, model evaluation, and forecasting.
-- **Generative AI & Natural Language Processing:** Large language models, text analytics, and AI-related applications.
-- **Technical Exploration:** Independent exercises focused on learning libraries, frameworks, development tools, and programming techniques.
+The environment template and setup notebook have empty setup outputs. Machine-specific interpreter paths were removed from the shared Iris notebook outputs. The public-data split counts and evaluation table remain available.
 
-## Repository Organization
+## Development approach
 
-Content is organized across branches based on the purpose of the work, including graduate coursework and independent technical practice.
+Begin with a small project that can be reproduced locally. Add reusable modules, tests, version records, deployment checks and monitoring as the application requires them. The project setup guide explains those next steps.
 
-Projects may include Jupyter notebooks, Python scripts, SQL queries, configuration files, and other supporting materials depending on the technologies involved.
-
-Individual projects vary in scope and completeness, ranging from introductory exercises and technical experiments to more comprehensive academic projects.
-
-## Purpose
-
-This repository serves as an evolving collection of technical work and learning resources. It provides a place to:
-
-- Document academic and independent projects.
-- Explore new programming languages, libraries, and technologies.
-- Practice analytical, data engineering, and machine learning techniques.
-- Maintain reusable code examples and technical references.
-- Track continued skill development over time.
-
-Not all content is intended to represent production-ready solutions. Some materials are exploratory, instructional, or retained primarily for personal reference.
-
+Before sharing updates, review both notebook code and saved outputs, inspect the staged files and explicitly approve publication.
